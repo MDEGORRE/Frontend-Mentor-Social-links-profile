@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+    background-color: #141414;
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.container {
+    margin: auto;
+}
+
+main {
+    border-radius: 0.7rem;
+    background-color:#1f1f1f;
+    max-width: 20rem;
+    padding: 2rem 1.5rem;
+}
+
+img {
+    max-width: 6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.location {
+    font-weight: 500;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    border-radius: 0.5rem;
+    margin-top: 0.7rem;
+    background-color: #333333;
+    padding: 0.7rem 0;
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover {
+    color:aqua;
+} 
+
+/* Footer */
+
+.attribution {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
